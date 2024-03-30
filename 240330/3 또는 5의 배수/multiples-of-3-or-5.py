@@ -2,12 +2,12 @@ a = input()
 a = int(a)
 
 if a%3==0:
-    print('Yes')
+    print('YES')
 else:
-    print('No')
+    print('NO')
 
 
 if a%5==0:
-    print('Yes')
+    print('YES')
 else:
-    print('No')
+    print('NO')
