@@ -1,6 +1,13 @@
 n = int(input())
+cnt = 0
+index = []
+arr = list(map(int, input().split()))
 
 for i in range(n):
-    arr = list(map(int, input().split()))
     if arr[i]%2==0:
-        print(arr[i],end=" ")
+        index[cnt] = arr[i]
+        cnt+=1
+
+
+for j in range(cnt,-1,-1):
+    print(index[j],end=" ")
