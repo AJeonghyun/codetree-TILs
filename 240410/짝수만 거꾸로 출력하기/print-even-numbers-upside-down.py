@@ -5,9 +5,9 @@ arr = list(map(int, input().split()))
 
 for i in range(n):
     if arr[i]%2==0:
-        index[cnt] = arr[i]
+        index.append(arr[i])
         cnt+=1
 
 
-for j in range(cnt,-1,-1):
+for j in range(cnt-1,-1,-1):
     print(index[j],end=" ")
