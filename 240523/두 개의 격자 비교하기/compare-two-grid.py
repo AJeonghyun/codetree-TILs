@@ -3,15 +3,15 @@ n = int(n)
 m = int(m)
 # 첫 번째 2차원 배열을 구현해 정수를 입력받습니다.
 arr_1 = [
-	list(map(int, input().split()))
-	for _ in range(4)
+    [0 for _ in range(m)]
+    for _ in range(n)
 ]
 
 
 # 두 번째 2차원 배열을 구현해 정수를 입력받습니다.
 arr_2 = [
-	list(map(int, input().split()))
-	for _ in range(4)
+    [0 for _ in range(m)]
+    for _ in range(n)
 ]
 
 # 2차원 배열을 구현합니다.
