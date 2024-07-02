@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <climits>
 #include <algorithm>
 using namespace std;
 
@@ -11,7 +12,7 @@ int main() {
         cin >> arr[k];
     }
 
-    int min_num = 100000;
+    int min_num = INT_MAX;
     for (int i=0; i<n; i++) {
     int sum = 0;
         for (int j=0; j<n; j++) {
