@@ -5,10 +5,6 @@ def day_test(year,month,day):
             yoon = 0
             if(year%400==0):
                 yoon = 1
-            else:
-                yoon = 0
-        else:
-            yoon = 0
     else:
         yoon = 0
     
@@ -30,10 +26,11 @@ def day_test(year,month,day):
                 else:
                     print("Fall")
             else:
-                if(month==2 and day>29):
-                    print(-1)
-                else:
-                    print("Winter")
+                if(month==2):
+                    if(1<=day<=29):
+                        print("Winter")
+                    else:
+                        print(-1)
         else:
             print(-1)
     else:
