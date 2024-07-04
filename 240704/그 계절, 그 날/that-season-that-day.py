@@ -47,6 +47,8 @@ def day_test(year,month,day):
                 print("Fall")
             else:
                 print("Winter")
+        else:
+            print(-1)
 
 
 year,month,day = input().split(" ")
