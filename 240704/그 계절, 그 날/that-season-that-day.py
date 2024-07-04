@@ -5,6 +5,10 @@ def day_test(year,month,day):
             yoon = 0
             if(year%400==0):
                 yoon = 1
+            else:
+                yoon = 0
+        else:
+            yoon = 0
     else:
         yoon = 0
     
